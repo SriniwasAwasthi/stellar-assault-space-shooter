@@ -52,3 +52,17 @@ The screenshots depicting the game systems and menus are stored in the project d
 2. **`planet_selection.png`**: Displays the unlockable planets list, description of levels, and target bosses.
 3. **`achievements.png`**: Tracks game achievements and combat medals such as *First Blood* and *Combo King*.
 4. **`upgrade_shop.png`**: Showcases the upgrade store where players can buy stat boosts and weapon tiers.
+
+---
+
+## 💙 Thank You
+
+Thank you for taking the time to visit and explore the **Stellar Assault** repository.
+
+This project was built with passion, curiosity, and a love for creating fun gaming experiences using modern web technologies. Whether you're here to play, learn, contribute, or simply browse the code, your interest is genuinely appreciated.
+
+If you found this project helpful or enjoyable, consider giving the repository a ⭐. Feedback, suggestions, and contributions are always welcome and help make the project even better.
+
+I hope you enjoy exploring **Stellar Assault** as much as I enjoyed building it.
+
+Happy coding and safe travels across the stars! 🚀✨
