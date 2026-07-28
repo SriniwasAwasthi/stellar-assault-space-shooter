@@ -1,6 +1,95 @@
-# Stellar Assault — Space Shooter
+# 🚀 Stellar Assault — Space Shooter
 
-Stellar Assault is a futuristic, browser-based space shooter game built using React, TypeScript, Vite, and TailwindCSS. The game features fast-paced combat, progressive weapon upgrades, achievements, planet progression, and challenging boss battles.
+> **Galactic Defense Force** | v2.4.1 — Tactical Space Combat
+
+Stellar Assault is a futuristic, browser-based space shooter game built using **React**, **TypeScript**, **Vite**, and **TailwindCSS**. The game features fast-paced combat, progressive weapon upgrades, achievements, planet progression, and challenging boss battles — all running smoothly right in your browser with zero installs.
+
+---
+
+## 📸 Screenshots
+
+### 1. 🚀 Main Menu — Play Tab (Full Screen)
+![Main Menu - Play Tab Full Screen](SRCshots/02_menu_play_launch_mission_fullscreen.png)
+
+> The main menu of Stellar Assault displayed in full-screen mode. Features the iconic **STELLAR ASSAULT** title with glowing cyan and orange typography, your all-time **Best Score** and **Kill Count**, and four navigation tabs: *Play*, *Planets*, *Medals*, and *Shop*. The glowing **"🚀 LAUNCH MISSION"** button sits front and center, ready to drop you straight into combat. Below it, all essential keybindings are listed — WASD for movement, Space/Z to fire weapons, P/ESC to pause, and M to toggle music. The animated starfield and ship visible in the background set the tone perfectly.
+
+---
+
+### 2. 🖥️ Main Menu — Play Tab (Compact View)
+![Main Menu - Play Tab Compact](SRCshots/01_menu_play_launch_mission_mobile.png)
+
+> The same Play tab rendered in a narrower viewport, demonstrating the game's **responsive UI layout**. The menu panel neatly adapts without losing any information — the launch button, controls reference, and feature highlights (7 Planets, 6 Weapons, Power-ups, Combo System, Achievements) remain fully accessible. A partial view of the animated space background peeks behind the panel. The HUD elements — HP bar, Shield bar, and weapon slots — are also visible along the bottom edge of the screen.
+
+---
+
+### 3. 🌍 Planets Tab — Mission Selection
+![Planets Tab - Mission Selection](SRCshots/03_menu_planets_tab.png)
+
+> The **Planets** navigation tab showcasing the full galactic campaign map. Each planet entry displays its name, subtitle, and a lore-flavored description of the combat challenge waiting there. Currently visible planets include:
+> - 🟢 **Mercury Prime** *(Planet 1 — The Scorched Frontier)*: Battle through asteroid fields — currently selected with an orange **"LAUNCH → MERCURY PRIME"** button.
+> - 🟢 **Venomaris** *(Planet 2 — The Toxic Nebula)*: Navigate poisonous clouds and lethal enemy swarms.
+> - 🟢 **Glacius IV** *(Planet 3 — The Frozen Void)*: Survive ice-shard barrages in frozen sectors.
+> - 🟢 **Pyrovex** *(Planet 4 — The Burning Hell)*: The final frontier — only legends survive.
+>
+> All four planets are shown as unlocked (green checkmarks), with a scrollable list indicating more planets exist below.
+
+---
+
+### 4. 🏆 Medals Tab — Achievements Gallery
+![Medals Tab - Achievements](SRCshots/04_menu_medals_tab.png)
+
+> The **Medals** tab displaying the full achievement gallery in a two-column grid layout. Each medal card shows a unique icon, title, and unlock condition. Achievements visible include:
+> - 🎯 **First Blood** — Destroy your first enemy
+> - ⚡ **Combo King** — Reach a 5x combo
+> - 🏆 **Titan Slayer** — Defeat the Inferno Titan
+> - 🌊 **Hydra Hunter** — Defeat the Venom Hydra
+> - ❄️ **Cryo Crusher** — Defeat the Cryo Leviathan
+> - ☀️ **Solar Conqueror** — Defeat the Solar Destroyer
+> - 🌀 **Tempest Cyclone** — Defeat the Tempest Cyclone
+> - 🖥️ **Matrix Architect** — Defeat the Matrix Architect
+> - 🌑 **Singularity** — Defeat the Gravity Singularity
+> - 🎯 **Sharpshooter** — Score 30,000 points
+>
+> Medals serve as long-term goals tracking boss kills, score milestones, and special combat feats throughout the campaign.
+
+---
+
+### 5. 🛒 Shop Tab — Weapons & Upgrades Store
+![Shop Tab - Weapons and Upgrades](SRCshots/05_menu_shop_tab.png)
+
+> The **Shop** tab where players spend credits earned during missions to permanently unlock and upgrade their arsenal and stats. Items are laid out in a clean two-column grid with gold coin cost displayed on each card:
+>
+> **Weapons (🔫 WEAPON):**
+> | Item | Cost | Description |
+> |------|------|-------------|
+> | Spread Shot | 🪙 500 | Triple-projectile wide coverage |
+> | Rapid Fire | 🪙 800 | High fire-rate barrage |
+> | Homing Missile | 🪙 1200 | Heavy damage seeking missiles |
+> | Plasma Cannon | 🪙 1500 | Explosive energy orbs |
+> | Laser Beam | 🪙 2000 | Continuous charging laser beam |
+>
+> **Stat Boosts (📊 STAT):**
+> | Item | Cost | Description |
+> |------|------|-------------|
+> | Shield Boost | 🪙 600 | Increases shield capacity |
+> | Speed Boost | 🪙 400 | Increases movement speed |
+> | HP Boost | 🪙 700 | Increases max health points |
+> | Damage Boost | 🪙 900 | Increases weapon damage output |
+> | Fire Rate+ | 🪙 750 | Increases firing speed |
+
+---
+
+### 6. 🎮 Gameplay — Level 1: Mercury Prime (Wave 1/4)
+![Gameplay - Level 1 Mercury Prime Wave 1](SRCshots/06_gameplay_level1_mercury_prime_wave1.png)
+
+> **Live in-game action** on Planet 1 — Mercury Prime, Wave 1 of 4. The player's ship (glowing cyan triangle at the bottom center) holds position as the first wave of enemy ships descends from the top. The enemies are rendered as vivid red diamond-shaped crafts in a staggered formation. The warm amber-toned starfield and the ringed planet in the top-right corner establish the scorched frontier atmosphere of Mercury Prime.
+>
+> The HUD visible at the bottom includes:
+> - 💚 **HP Bar** — 100/100 (full health)
+> - 🔵 **Shield Bar** — 50/50 (full shields)
+> - 🔫 **Weapon Slots** — L1 active (equipped), L2–L6 locked
+> - ⭐ **Score** and **Combo** counter in the top corners
+> - 📍 **Wave Indicator** — Wave 1 / 4 shown at top center
 
 ---
 
@@ -40,18 +129,9 @@ Stellar Assault is a futuristic, browser-based space shooter game built using Re
 2. **Upgrade Station**: Spend credits earned during missions to purchase permanent stat boosts (HP, Shields, Speed, Damage, Fire Rate) and weapon tiers.
 3. **Medal / Achievement Tracking**: Unlock special combat medals (e.g., *First Blood*, *Combo King*, *Untouchable*) as you accomplish tasks.
 4. **Dynamic Combo System**: Link enemy destructions quickly to boost your score multiplier (up to 8x).
-
----
-
-## 📸 Screenshots Directory
-
-The screenshots depicting the game systems and menus are stored in the project directory under the `SRCshots/` folder.
-
-### Saved Screenshots:
-1. **`main_menu.png`**: Showcases the game title screen, launch mission button, high score, and controls guide.
-2. **`planet_selection.png`**: Displays the unlockable planets list, description of levels, and target bosses.
-3. **`achievements.png`**: Tracks game achievements and combat medals such as *First Blood* and *Combo King*.
-4. **`upgrade_shop.png`**: Showcases the upgrade store where players can buy stat boosts and weapon tiers.
+5. **6 Unique Weapons**: From precise Standard Lasers to explosive Plasma Cannons and seeking Homing Missiles.
+6. **7 Boss Fights**: Each planet culminates in a massive boss encounter with unique attack patterns.
+7. **High Score Tracking**: Your personal best score and kill count are saved and displayed on the main menu.
 
 ---
 
