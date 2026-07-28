@@ -25,20 +25,21 @@ Stellar Assault is a futuristic, browser-based space shooter game built using **
 ### 3. 🌍 Planets Tab — Mission Selection
 ![Planets Tab - Mission Selection](SRCshots/03_menu_planets_tab.png)
 
-> The **Planets** navigation tab showcasing the full galactic campaign map. Each planet entry displays its name, subtitle, and a lore-flavored description of the combat challenge waiting there. Currently visible planets include:
-> - 🟢 **Mercury Prime** *(Planet 1 — The Scorched Frontier)*: Battle through asteroid fields — currently selected with an orange **"LAUNCH → MERCURY PRIME"** button.
+> The **Planets** navigation tab showcasing the full galactic campaign map. Each planet entry displays its name, subtitle, and a lore-flavored description of the combat challenge waiting there:
+> - 🟢 **Mercury Prime** *(Planet 1 — The Scorched Frontier)*: Battle through the asteroid fields of Mercury Prime.
 > - 🟢 **Venomaris** *(Planet 2 — The Toxic Nebula)*: Navigate poisonous clouds and lethal enemy swarms.
-> - 🟢 **Glacius IV** *(Planet 3 — The Frozen Void)*: Survive ice-shard barrages in frozen sectors.
-> - 🟢 **Pyrovex** *(Planet 4 — The Burning Hell)*: The final frontier — only legends survive.
->
-> All four planets are shown as unlocked (green checkmarks), with a scrollable list indicating more planets exist below.
+> - 🟢 **Glacius IV** *(Planet 3 — The Frozen Void)*: Survive ice-shard barrages in the frozen sectors.
+> - 🟢 **Pyrovex** *(Planet 4 — The Burning Hell)*: The final frontier. Only legends survive Pyrovex.
+> - 🟢 **Aetherius** *(Planet 5 — The Tempest Giant)*: Battle through strong atmospheric winds on Aetherius.
+> - 🟢 **Cybertron Core** *(Planet 6 — The Neon Grid)*: Hack through neon security defenses inside Cybertron Core.
+> - 🟢 **Void Terminus** *(Planet 7 — The Gravity Well)*: Fight gravity pulls in the final sector of Void Terminus.
 
 ---
 
 ### 4. 🏆 Medals Tab — Achievements Gallery
 ![Medals Tab - Achievements](SRCshots/04_menu_medals_tab.png)
 
-> The **Medals** tab displaying the full achievement gallery in a two-column grid layout. Each medal card shows a unique icon, title, and unlock condition. Achievements visible include:
+> The **Medals** tab displaying the complete achievement gallery in a two-column grid layout. Each medal card shows a unique icon, title, and unlock condition:
 > - 🎯 **First Blood** — Destroy your first enemy
 > - ⚡ **Combo King** — Reach a 5x combo
 > - 🏆 **Titan Slayer** — Defeat the Inferno Titan
@@ -48,9 +49,17 @@ Stellar Assault is a futuristic, browser-based space shooter game built using **
 > - 🌀 **Tempest Cyclone** — Defeat the Tempest Cyclone
 > - 🖥️ **Matrix Architect** — Defeat the Matrix Architect
 > - 🌑 **Singularity** — Defeat the Gravity Singularity
-> - 🎯 **Sharpshooter** — Score 30,000 points
+> - 🎯 **Sharpshooter** — Score 10,000 points
+> - 🌌 **Space Legend** — Score 50,000 points
+> - 🛡️ **Untouchable** — Complete a wave without damage
+> - ⏱️ **Survivor** — Survive 5 minutes
+> - ⚡ **Combo Legend** — Reach and hold an 8x combo
+> - ☮️ **Pacifist** — Clear a wave without firing
+> - ⏱️ **Speedrunner** — Defeat a boss in under 45s
+> - 🤠 **Gunslinger** — Defeat a boss with starter laser
+> - ⏳ **Elite Survivor** — Survive 10 minutes
 >
-> Medals serve as long-term goals tracking boss kills, score milestones, and special combat feats throughout the campaign.
+> Medals serve as long-term goals tracking boss kills, score milestones, survival challenges, and special combat feats throughout the campaign.
 
 ---
 
@@ -125,9 +134,9 @@ Stellar Assault is a futuristic, browser-based space shooter game built using **
 
 ## 🚀 Game Features
 
-1. **Planet Progression**: Battle through multiple distinct sectors starting with Planet 1 (**Mercury Prime**), progressing through **Venomaris**, **Glacius IV**, and more.
+1. **Planet Progression**: Battle through 7 distinct planet sectors starting with Planet 1 (**Mercury Prime**), **Venomaris**, **Glacius IV**, **Pyrovex**, **Aetherius**, **Cybertron Core**, and **Void Terminus**.
 2. **Upgrade Station**: Spend credits earned during missions to purchase permanent stat boosts (HP, Shields, Speed, Damage, Fire Rate) and weapon tiers.
-3. **Medal / Achievement Tracking**: Unlock special combat medals (e.g., *First Blood*, *Combo King*, *Untouchable*) as you accomplish tasks.
+3. **Medal / Achievement Tracking**: Unlock 18 special combat medals (e.g., *First Blood*, *Combo King*, *Untouchable*, *Pacifist*, *Speedrunner*, *Gunslinger*, *Elite Survivor*) as you accomplish combat challenges.
 4. **Dynamic Combo System**: Link enemy destructions quickly to boost your score multiplier (up to 8x).
 5. **6 Unique Weapons**: From precise Standard Lasers to explosive Plasma Cannons and seeking Homing Missiles.
 6. **7 Boss Fights**: Each planet culminates in a massive boss encounter with unique attack patterns.
