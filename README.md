@@ -144,40 +144,7 @@ Stellar Assault is a futuristic, browser-based space shooter game built using **
 
 ---
 
-## 💙 Thank You 🙏✨
-
-Thank you so much for taking the time to visit and explore the **Stellar Assault** repository! 🚀🌌
-
-This project was built with passion ❤️, curiosity 💡, and a love for creating fun gaming experiences 🎮 using modern web technologies. Whether you're here to play 🕹️, learn 📚, contribute 🤝, or simply browse the code 💻, your interest is genuinely appreciated! 🌟
-
-If you found this project helpful or enjoyable, consider giving the repository a star ⭐! Feedback 💬, suggestions 💡, and contributions 🛠️ are always welcome and help make the project even better. 🌌
-
-I hope you enjoy exploring **Stellar Assault** 🪐 as much as I enjoyed building it! 🛸
-
-Happy coding 💻 and safe travels across the stars! 🚀✨ Galactic victory awaits! 👾🛸
-
----
-
----
-
-## 💖 Thank You for Piloting Stellar Assault!
-
-> *"Thank you for flying through the stars with Stellar Assault!"* 🚀
-
-Architecting high-speed 60 FPS 2D canvas particle systems, bullet collision meshes, boss attack patterns, and upgrade economies was an exhilarating deep-dive into browser game development. Your time spent playing and reviewing my code is greatly appreciated.
-
-- 🌟 **Enjoyed blasting through waves of alien invaders?** Leave a star on this repository to fuel future game updates!
-- 📬 **Let's Connect:** I am always thrilled to discuss HTML5 game performance, canvas rendering optimizations, and creative computing. Connect on [GitHub](https://github.com/SriniwasAwasthi).
-
-*Fly high, dodge the lasers, and have an out-of-this-world day!* ✨
-
----
-
-<div align="center">
-  <sub>Engineered for arcade gaming fans by <a href="https://github.com/SriniwasAwasthi">Sriniwas Awasthi</a>.</sub>
-</div>
-
-## 🏛️ Game Engine Architecture
+## 🏛️ System Architecture
 
 ```mermaid
 graph TD
@@ -187,3 +154,17 @@ graph TD
     Physics --> Upgrades["🌲 Weapon Upgrade Tree & Score State"]
     Renderer --> Screen["🖥️ Display Output"]
 ```
+
+---
+
+## 💖 Thank You for Visiting & Exploring 🚀 Stellar Assault — Space Shooter!
+
+> *"Thank you for taking the time to explore this project! Continuous learning, clean craftsmanship, and solving real-world challenges through elegant software are at the core of my developer journey."* 🚀
+
+* 🌟 **Enjoyed this project?** If you found this repository interesting or helpful, please consider giving it a **Star**!
+* 📬 **Let's Connect & Collaborate:** I am actively seeking engineering opportunities, impactful internships, and open-source collaborations. Feel free to connect via [GitHub](https://github.com/SriniwasAwasthi) or [Email](mailto:sriawasthi164@gmail.com).
+
+---
+<div align="center">
+  <sub>Designed & Crafted with Passion by <a href="https://github.com/SriniwasAwasthi"><strong>Sriniwas Awasthi</strong></a> • Continuous Learner & Software Engineer</sub>
+</div>
