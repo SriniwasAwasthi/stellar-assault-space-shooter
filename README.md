@@ -176,3 +176,14 @@ Architecting high-speed 60 FPS 2D canvas particle systems, bullet collision mesh
 <div align="center">
   <sub>Engineered for arcade gaming fans by <a href="https://github.com/SriniwasAwasthi">Sriniwas Awasthi</a>.</sub>
 </div>
+
+## 🏛️ Game Engine Architecture
+
+```mermaid
+graph TD
+    Loop["🔁 60 FPS RequestAnimationFrame Loop"] --> Input["🎮 Keyboard / Mouse Controller"]
+    Loop --> Physics["⚡ Collision Detection & Projectile Physics"]
+    Loop --> Renderer["🎨 HTML5 2D Canvas Engine"]
+    Physics --> Upgrades["🌲 Weapon Upgrade Tree & Score State"]
+    Renderer --> Screen["🖥️ Display Output"]
+```
